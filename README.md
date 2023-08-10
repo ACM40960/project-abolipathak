@@ -40,7 +40,7 @@ Similarly for Ocean data, the code extracts ocean temperature data from a NetCDF
 
 We calculate the temperature increase percentage for each city by iterating through grouped data for each city. We calculate the temperature increase between a specified start and end year, and stores the results in a DataFrame 
 
-<img src="https://github.com/ACM40960/project-abolipathak/blob/main/temperature_increase_data_citywise.jpg" width="500">
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/temperature_increase_data_citywise.jpg" width="400">
 
 ## Calculating Mean Land Surface Temperature
 
