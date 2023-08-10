@@ -26,7 +26,9 @@ pip install netCDF4
     
 ## Data Extraction 
 
-![img|100x80](https://github.com/ACM40960/project-abolipathak/blob/main/data_extraction.jpg)
+![](https://github.com/ACM40960/project-abolipathak/blob/main/data_extraction.jpg)
+
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/data_extraction.jpg" width="100">
 
 In data extraction the code reads temperature data from a NetCDF file for various cities' latitudes and longitudes, matches the available dates with a pre-defined date range, calculates squared distances to find the nearest point on the grid for each city, and constructs a dataframe containing city, temperature, location, and date information for further analysis.
 
