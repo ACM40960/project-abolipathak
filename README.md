@@ -47,6 +47,7 @@ We calculate the temperature increase percentage for each city by iterating thro
 In this we calculate the mean Land Surface Temperature (LST) by grouping temperature data by year. Then create a DataFrame storing years and corresponding mean temperatures. The minimum and maximum mean LST values are calculated and displayed.
 ## Plot Temperature vs Year for Land Surface Data
 
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/Global_Mean_Temperature_Change.gif" width="500">
 
 ![](https://github.com/ACM40960/project-abolipathak/blob/main/Global_Mean_Temperature_Change.gif)
 
