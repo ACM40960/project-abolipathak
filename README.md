@@ -49,8 +49,6 @@ In this we calculate the mean Land Surface Temperature (LST) by grouping tempera
 
 <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Global_Mean_Temperature_Change.gif" width="500">
 
-![](https://github.com/ACM40960/project-abolipathak/blob/main/Global_Mean_Temperature_Change.gif)
-
 ## Plot Temperature vs Year for Ocean Surface Data
 
 Insert plot image here
