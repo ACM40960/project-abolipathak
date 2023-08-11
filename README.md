@@ -1,7 +1,7 @@
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_warming_logo.jpeg">
-</p>
+
 
 
 # Investigating the Drivers of Global Warming
@@ -72,5 +72,5 @@ We can plot the same for any city over the globe amongst the chosen cities.
 
 <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/temp_year_london.png" width="500">
 
-
+</p>
 
