@@ -71,7 +71,13 @@ Below is a scatter plot with temperature on the x-axis and CO2 levels on the y-a
 
 
 
+## Plot Temperature Vs Year for each City
 
+This plot gives temperature increase over the time for the city London.
+
+We can plot the same for any city over the globe amongst the chosen cities.
+
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/temp_year_london.png" width="500">
 
 
 
