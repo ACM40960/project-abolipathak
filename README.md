@@ -3,7 +3,8 @@
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_warming_logo.jpeg">
 </p>
 
-
+<p align="center">
+  
 # Investigating the Drivers of Global Warming
 
 ## Overview
@@ -16,6 +17,7 @@ This project aims to comprehensively examine the factors contributing to global 
 - [@YashPimpale27](https://github.com/YashPimpale27)
 ## Installation
 
+</p>
 Installing the Libraries
 
 ```bash
@@ -54,7 +56,7 @@ In this we calculate the mean Land Surface Temperature (LST) by grouping tempera
 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change.gif">
+  <img width="460" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change.gif">
 </p>
 
 ## Plot Temperature vs Year for Ocean Surface Data
