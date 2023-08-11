@@ -57,3 +57,19 @@ Insert plot image here
 We load the CO2 data, calculate the correlation between mean land surface temperature and CO2 levels over a common range of years. This is done by combining temperature and CO2 datasets using inner merge and calculates the correlation coefficient to assess their relationship.
 
 Below is a scatter plot with temperature on the x-axis and CO2 levels on the y-axis, where each point is colored based on the year. It also adds a regression line to the plot. The correlation coefficient between temperature and CO2 is displayed, along with labels and styling for visualization.
+
+
+
+## Compute Correlation between CO2 and Temperature
+
+We load the CO2 data, calculate the correlation between mean land surface temperature and CO2 levels over a common range of years. This is done by combining temperature and CO2 datasets using inner merge and calculates the correlation coefficient to assess their relationship.
+
+Below is a scatter plot with temperature on the x-axis and CO2 levels on the y-axis, where each point is colored based on the year. It also adds a regression line to the plot. The correlation coefficient between temperature and CO2 is calculated and displayed.
+
+
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/correlation_co2.png" width="500">
+
+
+
+
+
