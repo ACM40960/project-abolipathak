@@ -26,7 +26,7 @@ pip install netCDF4
     
 ## Data Extraction 
 
-<img src="https://github.com/ACM40960/project-abolipathak/blob/main/data_extraction.jpg" width="500" align="center">
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/data_extraction.jpg" width="500" align="center">
 
 In data extraction the code reads temperature data from a NetCDF file for various cities' latitudes and longitudes, matches the available dates with a pre-defined date range, calculates squared distances to find the nearest point on the grid for each city, and constructs a dataframe containing city, temperature, location, and date information for further analysis.
 
@@ -40,14 +40,14 @@ Similarly for Ocean data, the code extracts ocean temperature data from a NetCDF
 
 We calculate the temperature increase percentage for each city by iterating through grouped data for each city. We calculate the temperature increase between a specified start and end year, and stores the results in a DataFrame 
 
-<img src="https://github.com/ACM40960/project-abolipathak/blob/main/temperature_increase_data_citywise.jpg" width="400">
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/temperature_increase_data_citywise.jpg" width="400">
 
 ## Calculating Mean Land Surface Temperature
 
 In this we calculate the mean Land Surface Temperature (LST) by grouping temperature data by year. Then create a DataFrame storing years and corresponding mean temperatures. The minimum and maximum mean LST values are calculated and displayed.
 ## Plot Temperature vs Year for Land Surface Data
 
-<img src="https://github.com/ACM40960/project-abolipathak/blob/main/Global_Mean_Temperature_Change.gif" width="500">
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change.gif" width="500">
 
 ## Plot Temperature vs Year for Ocean Surface Data
 
@@ -67,7 +67,9 @@ We load the CO2 data, calculate the correlation between mean land surface temper
 Below is a scatter plot with temperature on the x-axis and CO2 levels on the y-axis, where each point is colored based on the year. It also adds a regression line to the plot. The correlation coefficient between temperature and CO2 is calculated and displayed.
 
 
-<img src="https://github.com/ACM40960/project-abolipathak/blob/main/correlation_co2.png" width="500">
+<img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/correlation_co2.png" width="500">
+
+
 
 
 
