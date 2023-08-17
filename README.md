@@ -27,13 +27,23 @@ This project aims to comprehensively examine the factors contributing to global 
 ## Installation
 
 </p>
-Installing the Libraries
+
+Libraries Used
 
 ```bash
-pip install seaborn
-pip install netCDF4
+import pandas as pd
+import numpy as np
+import netCDF4 as nc
+from datetime import datetime, timedelta
+import matplotlib.pyplot as plt
+import seaborn as sns
+from matplotlib.lines import Line2D
+import matplotlib as mplt
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+import PIL
 ```
-    
+
 ## Land Surface Temperature Data Extraction 
 
 Monthly Temperature data for each latitude and longitude from year 1880-2023 is present in a grided form in .netcdf file. We need to extract data for specific cities from this .netcdf file for all the years. Below steps are followed :
@@ -73,49 +83,48 @@ Below figure depicts a line graph with mean land temperature on Y-axis and Year 
 Above figures indicate a noticeable increase in mean land surface temperatures from 1880 to 2022.
 The temperature range rose from -0.35°C to 1.3°C over a 42-year span which signifies a significant 471% temperature increase during this period.
 
-## Visualization of Land Surface Temperature Change For Specific Cities
+## Visualization of Land Surface Temperature Trend For Specific Cities
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.png">
+  <img width="700" height="500" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.png">
 </p>
 
 
 ## Ocean Surface Temperature Data Extraction
 
-We repeat the same procedure to extract temperature data for Ocean surface.
+We repeat the same procedure mentioned above (Land Surface Temperature) to extract temperature data for Ocean surface.
 
-
-## Visualization of Mean Ocean Surface Temperature Change
-
+## Visualization of Mean Ocean Surface Temperature Trend
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Ocean_surface.png">
+  <img width="620" height="450" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Ocean_surface.png">
 </p>
 
-
-## Visualization of Ocean Surface Temperature Change Separately
+## Oceanwise Surface Temperature Trends
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/ocean_plots.png">
+  <img width="620" height="450" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/ocean_plots.png">
 </p>
 
-## Plot for Atmospheric Carbon Dioxide Emission Over the Years
+## Correlation Between Temperature and CO2
+
+First load the yearwise atmospheric Carbon dioxide emission data and visualize the data using barplot to observe its trend.
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Co2_plot.png">
 </p>
 
-## Correlation Between Temperature and CO2
+The atmospheric carbon dioxide (CO2) levels have exhibited a consistent upward trend over the course of time. The initial recorded atmospheric CO2 concentration in the year 1959 was 315.98 parts per million (ppm), while in the year 2022, it was measured to be 418.56 ppm.
 
-We load the CO2 data, calculate the correlation between mean land surface temperature and CO2 levels over a common range of years. This is done by combining temperature and CO2 datasets using inner merge and calculates the correlation coefficient to assess their relationship.
+Since CO2 levels in the atmosphere have been steadily rising, let's investigate if this has anything to do with the increase in temperature.
 
-Below is a scatter plot with temperature on the x-axis and CO2 levels on the y-axis, where each point is colored based on the year. It also adds a regression line to the plot. The correlation coefficient between temperature and CO2 is calculated and displayed.
-
+We now calculate the correlation between mean land surface temperature and CO2 levels over a common range of years to assess their relationship. This is done by combining temperature and CO2 datasets using inner merge.
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/correlation_co2.png">
 </p>
 
+The above scatter plot with temperature on the x-axis and CO2 levels on the y-axis, where each point is colored based on the year. It also adds a regression line to the plot which indicates the trajectory of linear relationship. It reveals a significant positive correlation between the two, substantiated by a Pearson correlation coefficient of 0.951. This coefficient indicates a strong linear relationship between the two variables, suggesting that as CO2 concentrations increase, there is a corresponding elevation in temperature levels.
 
 ## Role of Volcanic Eruptions in Rising CO2
 
@@ -154,3 +163,8 @@ It is evident from the plot that atmospheric CO2 levels are significantly higher
 
 Therefore, we can deduce that the primary cause of the temperature rise is the CO2 emissions resulting from human activities.
 
+
+
+Installation :
+
+https://cdf.gsfc.nasa.gov/html/sw_and_docs.html
