@@ -80,7 +80,7 @@ We repeat the same procedure to extract temperature data for Ocean surface.
 ## Plot for Atmospheric Carbon Dioxide Emission Over the Years
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Co2_plot.png">
+  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Co2_plot.png">
 </p>
 
 ## Correlation Between Temperature and CO2
