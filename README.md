@@ -155,6 +155,9 @@ It is evident from the plot that atmospheric CO2 levels are significantly higher
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/tsi_scatterplot.png">
 </p>
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Temp_Solar_plot.jpg">
+</p>
 
 ## Conclusion 
 
