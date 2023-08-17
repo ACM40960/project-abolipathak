@@ -46,18 +46,9 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
 
 
 <p float="left">
-  <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png" height="150" width="250" />
-  <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/line_mean_land.png" height="150" width="250" />
+  <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png" height="300" width="300" />
+  <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/line_mean_land.png" height="500" width="300" />
 </p>
-
-<p align="left">
-  <img width="250" height="300"src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png">
-</p>
-
-<p align="right">
-  <img width="250" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/line_mean_land.png">
-</p>
-
 
 Above indicates a noticeable increase in mean land surface temperatures from 1880 to 2022.
 The temperature range rose from -0.35°C to 1.3°C over a 42-year span which signifies a significant 471% temperature increase during this period.
