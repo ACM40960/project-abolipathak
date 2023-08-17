@@ -27,7 +27,7 @@ pip install netCDF4
     
 ## Land Surface Temperature Data Extraction 
 
-In this we calculate the mean Land Surface Temperature (LST) by grouping temperature data by year. Below are the steps to obtain the data 
+Monthly Temperature data for each latitude and longitude from year 1880-2023 is present in a grided form in .netcdf file. We need to extract data for specific cities from this .netcdf file for all the years. Below steps are followed :
 
 <p align="center">
   <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/data_extraction.jpg">
@@ -36,14 +36,18 @@ In this we calculate the mean Land Surface Temperature (LST) by grouping tempera
 - Extract Temperature, latitude and longitude present in .netcdf file.
 - Actual latitude and longitude for each city are different than those present in .netcdf file. Hence we need to compute square distance between each latitude and longitude of respective city and find the nearest co-ordinate.
 - Extract data for that city and add it in final dataframe.
-- Repeat step 3 till data for each city is extracted and present in final dataframe.
+- Repeat above step till data for each city is extracted and present in final dataframe.
 - Final dataframe will contain Date, city, temperature, actual latitude, actual longitude, Nearest latitude, Nearest longitude and country column.
 
 Note: Grided Form means latitude and longitude are divided into a sequence from max to min values. For e.g. latitude range from -90 to +90. Then it will be present as -90, -88, -86,....., +86, +88, +90.
 
+Below is the Final extracted dataset obtained.
+
+<p align="center">
+  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/land_extracted_data.jpg">
+</p>
 
 ## Visualization of Mean Land Surface Temperature Change 
-
 
 <p float="left">
   <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png" height="300" width="300"/>
@@ -51,10 +55,8 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
   <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/line_mean_land.png" height="300" width="500"/>
 </p>
 
-Above indicates a noticeable increase in mean land surface temperatures from 1880 to 2022.
+Above figures indicate a noticeable increase in mean land surface temperatures from 1880 to 2022.
 The temperature range rose from -0.35°C to 1.3°C over a 42-year span which signifies a significant 471% temperature increase during this period.
-For instance, considering the city of Berlin, the temperature climbed from 1.16°C to 1.64°C in 42 years.
-
 
 ## Visualization of Land Surface Temperature Change For Specific Cities
 
