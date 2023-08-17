@@ -28,7 +28,7 @@ pip install netCDF4
 ## Data Extraction 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/data_extraction.jpg">
+  <img width="300" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/data_extraction.jpg">
 </p>
 
 
