@@ -42,6 +42,11 @@ import matplotlib as mplt
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import PIL
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import KFold
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error
 ```
 
 ## Land Surface Temperature Data Extraction 
@@ -133,7 +138,6 @@ The substantial volume of CO2 emissions has reached a level where sensors strugg
 ## Data Collection and Integration
 
 We have dataset containing amount of sulpher dioxide released during volcanic eruptions. Also we have CS ratio for few volcanos which is the ratio of amount of carbon dioxide per sulpher dioxide present in gases released during respective volanic eruption. Hence we need to predict missing CS values using a statistical machine learning model. For this, we need to prepare data before passing it as input to the regression model. 
-
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/volcano_flowchart.jpg">
