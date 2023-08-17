@@ -50,7 +50,7 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
 </p>
 
 <p align="right">
-  <img width="250" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.png">
+  <img width="250" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/line_mean_land.png">
 </p>
 
 
