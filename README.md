@@ -46,11 +46,11 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
 
 
 <p align="left">
-  <img width="300" height="300"src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png">
+  <img width="250" height="300"src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png">
 </p>
 
 <p align="right">
-  <img width="300" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.png">
+  <img width="250" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.png">
 </p>
 
 
