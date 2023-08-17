@@ -25,44 +25,56 @@ pip install seaborn
 pip install netCDF4
 ```
     
-## Data Extraction 
+## Land Surface Temperature Data Extraction 
+
+In this we calculate the mean Land Surface Temperature (LST) by grouping temperature data by year. Below are the steps to obtain the data 
 
 <p align="center">
   <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/data_extraction.jpg">
 </p>
 
+- Extract Temperature, latitude and longitude present in .netcdf file.
+- Actual latitude and longitude for each city are different than those present in .netcdf file. Hence we need to compute square distance between each latitude and longitude of respective city and find the nearest co-ordinate.
+- Extract data for that city and add it in final dataframe.
+- Repeat step 3 till data for each city is extracted and present in final dataframe.
+- Final dataframe will contain Date, city, temperature, actual latitude, actual longitude, Nearest latitude, Nearest longitude and country column.
 
-In data extraction the code reads temperature data from a NetCDF file for various cities' latitudes and longitudes, matches the available dates with a pre-defined date range, calculates squared distances to find the nearest point on the grid for each city, and constructs a dataframe containing city, temperature, location, and date information for further analysis.
-
-Similarly for Ocean data, the code extracts ocean temperature data from a NetCDF file for various ocean coordinates, matches available dates, calculates squared distances to find the nearest grid point, and constructs a dataframe containing ocean temperature, location, and date information for further analysis.
+Note: Grided Form means latitude and longitude are divided into a sequence from max to min values. For e.g. latitude range from -90 to +90. Then it will be present as -90, -88, -86,....., +86, +88, +90.
 
 
+## Visualization of Mean Land Surface Temperature Change 
 
-
-
-## Calculating Percentage Increase in Temperature for Cities
-
-We calculate the temperature increase percentage for each city by iterating through grouped data for each city. We calculate the temperature increase between a specified start and end year, and stores the results in a DataFrame 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/temperature_increase_data_citywise.jpg">
+  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot.jpg">
 </p>
 
 
-## Calculating Mean Land Surface Temperature
 
-In this we calculate the mean Land Surface Temperature (LST) by grouping temperature data by year. Then create a DataFrame storing years and corresponding mean temperatures. The minimum and maximum mean LST values are calculated and displayed.
-## Plot Temperature vs Year for Land Surface Data
-
+## Visualization of Land Surface Temperature Change For Specific Cities
 
 <p align="center">
-  <img width="460" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change.gif">
+  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.jpg">
 </p>
 
-## Plot Temperature vs Year for Ocean Surface Data
+
+## Ocean Surface Temperature Data Extraction
+
+We repeat the same procedure to extract temperature data for Ocean surface.
+
+
+## Visualization of Mean Ocean Surface Temperature Change
+
 
 <p align="center">
-  <img width="760" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Mean_Ocean_Surface_Temperature.jpg">
+  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Ocean_surface.png">
+</p>
+
+
+## Visualization of Ocean Surface Temperature Change Separately
+
+<p align="center">
+  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/ocean_plots.png">
 </p>
 
 
