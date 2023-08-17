@@ -61,12 +61,13 @@ Below is the Final extracted dataset obtained.
 The gif depicts the mean land surface temperature for 12 months as line on the polar scale. Each line indicates mean temperature of a respective year with inner most line indicating year 1880 and outer most as year 2022.
 
 <p align="center">
-  <img width="550" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change_V3.gif">
+  <img width="500" height="500" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change_V3.gif">
 </p>
 
+Below figure depicts a line graph with mean land temperature on Y-axis and Year on X-axis.
 
 <p align="center">
-  <img width="550" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Mean_Land_Surface_Temperature.jpg">
+  <img width="550" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Mean_Land_Surface_Temperature_1.jpg">
 </p>
 
 Above figures indicate a noticeable increase in mean land surface temperatures from 1880 to 2022.
