@@ -46,7 +46,7 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
 
 
 <p align="center">
-  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot.jpg">
+  <img width="460" height="300"src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png">
 </p>
 
 
@@ -54,7 +54,7 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
 ## Visualization of Land Surface Temperature Change For Specific Cities
 
 <p align="center">
-  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.jpg">
+  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.png">
 </p>
 
 
@@ -67,14 +67,14 @@ We repeat the same procedure to extract temperature data for Ocean surface.
 
 
 <p align="center">
-  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Ocean_surface.png">
+  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Ocean_surface.png">
 </p>
 
 
 ## Visualization of Ocean Surface Temperature Change Separately
 
 <p align="center">
-  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/ocean_plots.png">
+  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/ocean_plots.png">
 </p>
 
 
