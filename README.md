@@ -44,7 +44,7 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
 Below is the Final extracted dataset obtained.
 
 <p align="center">
-  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/land_extracted_data.jpg">
+  <img width="700" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/land_extracted_data.jpg">
 </p>
 
 ## Visualization of Mean Land Surface Temperature Change 
