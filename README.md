@@ -1,4 +1,4 @@
-
+![Mean_Land_Surface_Temperature](https://github.com/ACM40960/project-abolipathak/assets/118313222/104d778f-f411-43d8-9b3b-94e75e332c98)
 <p align="center">
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_warming_logo.jpeg">
 </p>
@@ -10,6 +10,15 @@
 ## Overview
 
 This project aims to comprehensively examine the factors contributing to global warming by analyzing a diverse dataset of global surface temperature measurements, atmospheric CO2 concentrations, volcanic activity, and solar irradiance over various timescales. By employing robust statistical methods and data visualization techniques, we will explore the relationships between these variables to discern whether human-made factors, particularly increased CO2 emissions, are the primary drivers of observed global temperature increases
+
+## Objective
+
+- Determine temperature trends at distinct geographical locations.
+- Calculate and analyze the global surface average temperature variation over time.
+- Investigate the correlation between levels of CO2 and temperature patterns.
+- Explore the potential impact of volcanic eruptions on global surface temperature changes.
+- Examine the influence of solar irradiance activity on variations in global surface temperature.
+
 ## Authors
 
 - [@abolipathak](https://github.com/abolipathak)
@@ -47,12 +56,17 @@ Below is the Final extracted dataset obtained.
   <img width="550" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/land_extracted_data.jpg">
 </p>
 
-## Visualization of Mean Land Surface Temperature Change 
+## Visualization of Mean Land Surface Temperature Trend
 
-<p float="left">
-  <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png" height="300" width="300"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/line_mean_land.png" height="300" width="500"/>
+The gif depicts the mean land surface temperature for 12 months as line on the polar scale. Each line indicates mean temperature of a respective year with inner most line indicating year 1880 and outer most as year 2022.
+
+<p align="center">
+  <img width="550" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change_V3.gif">
+</p>
+
+
+<p align="center">
+  <img width="550" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Mean_Land_Surface_Temperature.jpg">
 </p>
 
 Above figures indicate a noticeable increase in mean land surface temperatures from 1880 to 2022.
@@ -121,6 +135,8 @@ We have dataset containing amount of sulpher dioxide released during volcanic er
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/volcanic_co2.png">
 </p>
 
+It is evident from the plot that atmospheric CO2 levels are significantly higher than volcanic CO2 emissions. Atmospheric CO2 levels have been steadily increasing over the years, while volcanic CO2 emissions remain relatively stable. This highlights the substantial impact of human activities on atmospheric CO2 levels
+
 ## Role of Solar Irradiations for Rise in Temperature
 
 ## Correlation between Temperature and Total Solar Irridance
@@ -130,4 +146,10 @@ We have dataset containing amount of sulpher dioxide released during volcanic er
 </p>
 
 
+## Conclusion 
+
+- After a comprehensive analysis of the data, it becomes apparent that volcanic eruptions and solar irradiance variations are not the main drivers of the temperature increase.
+- While these natural factors do have some influence, their impact on temperature changes seems to be relatively small. 
+
+Therefore, we can deduce that the primary cause of the temperature rise is the CO2 emissions resulting from human activities.
 
