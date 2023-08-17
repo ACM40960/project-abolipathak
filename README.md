@@ -47,8 +47,8 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
 
 <p float="left">
   <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/polar_plot_land.png" height="300" width="300"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/line_mean_land.png" height="300" width="600"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/line_mean_land.png" height="300" width="500"/>
 </p>
 
 Above indicates a noticeable increase in mean land surface temperatures from 1880 to 2022.
