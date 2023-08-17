@@ -1,4 +1,4 @@
-![Mean_Land_Surface_Temperature](https://github.com/ACM40960/project-abolipathak/assets/118313222/104d778f-f411-43d8-9b3b-94e75e332c98)
+
 <p align="center">
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_warming_logo.jpeg">
 </p>
