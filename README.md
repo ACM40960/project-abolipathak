@@ -61,7 +61,9 @@ In this we calculate the mean Land Surface Temperature (LST) by grouping tempera
 
 ## Plot Temperature vs Year for Ocean Surface Data
 
-Insert plot image here
+<p align="center">
+  <img width="460" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Mean_Ocean_Surface_Temperature.jpg">
+</p>
 
 
 ## Compute Correlation between CO2 and Temperature
