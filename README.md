@@ -3,9 +3,7 @@
   <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_warming_logo.jpeg">
 </p>
 
-<p align="center">
-  
-# Investigating the Drivers of Global Warming
+# Global Temperature Trends
 
 ## Overview
 
@@ -73,16 +71,16 @@ Below is the Final extracted dataset obtained.
 
 ## Visualization of Mean Land Surface Temperature Trend
 
-The gif depicts the mean land surface temperature for 12 months as line on the polar scale. Each line indicates mean temperature of a respective year with inner most line indicating year 1880 and outer most as year 2022.
+The GIF depicts the mean land surface temperature for 12 months as line on the polar scale. Each line indicates mean temperature of a respective year with inner most line indicating year 1880 and outer most as year 2022.
 
 <p align="center">
   <img width="500" height="500" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change_V3.gif">
 </p>
 
-Below figure depicts a line graph with mean land temperature on Y-axis and Year on X-axis.
+Below figure depicts a line graph with mean land temperature on y-axis and Year on x-axis.
 
 <p align="center">
-  <img width="550" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Mean_Land_Surface_Temperature_1.jpg">
+  <img width="600" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Mean_Land_Surface_Temperature_1.jpg">
 </p>
 
 Above figures indicate a noticeable increase in mean land surface temperatures from 1880 to 2022.
@@ -105,10 +103,19 @@ We repeat the same procedure mentioned above (Land Surface Temperature) to extra
   <img width="620" height="450" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Ocean_surface.png">
 </p>
 
+
+The above figure depicts the rise in annual mean ocean surface temperatures.The initial temperature in 1880 was approximately -0.19°C and by the year 2022, the final temperature had risen to around 1.53°C.
+
 ## Oceanwise Surface Temperature Trends
 
 <p align="center">
   <img width="620" height="450" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/ocean_plots.png">
+</p>
+
+In summary, both land and ocean surface temperature data plots exhibit a consistent rise in temperatures over the years. The land surface temperature experienced a substantial increase, while the ocean surface temperature similarly showed an upward trend. 
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Globe_Mean_Temperature_V1.gif">
 </p>
 
 ## Correlation Between Temperature and CO2
@@ -116,7 +123,7 @@ We repeat the same procedure mentioned above (Land Surface Temperature) to extra
 First load the yearwise atmospheric Carbon dioxide emission data and visualize the data using barplot to observe its trend.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Co2_plot.png">
+  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/correlation_co2.png">
 </p>
 
 The atmospheric carbon dioxide (CO2) levels have exhibited a consistent upward trend over the course of time. The initial recorded atmospheric CO2 concentration in the year 1959 was 315.98 parts per million (ppm), while in the year 2022, it was measured to be 418.56 ppm.
