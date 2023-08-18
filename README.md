@@ -128,9 +128,6 @@ Since CO2 levels in the atmosphere have been steadily rising, let's investigate 
 
 We now calculate the correlation between mean land surface temperature and CO2 levels over a common range of years to assess their relationship. This is done by combining temperature and CO2 datasets using inner merge.
 
-<p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/correlation_co2.png">
-</p>
 
 The above scatter plot with temperature on the x-axis and CO2 levels on the y-axis, where each point is colored based on the year. It also adds a regression line to the plot which indicates the trajectory of linear relationship. It reveals a significant positive correlation between the two, substantiated by a Pearson correlation coefficient of 0.951. This coefficient indicates a strong linear relationship between the two variables, suggesting that as CO2 concentrations increase, there is a corresponding elevation in temperature levels.
 
