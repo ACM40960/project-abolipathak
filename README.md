@@ -122,10 +122,6 @@ In summary, both land and ocean surface temperature data plots exhibit a consist
 
 First load the yearwise atmospheric Carbon dioxide emission data and visualize the data using barplot to observe its trend.
 
-<p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/correlation_co2.png">
-</p>
-
 The atmospheric carbon dioxide (CO2) levels have exhibited a consistent upward trend over the course of time. The initial recorded atmospheric CO2 concentration in the year 1959 was 315.98 parts per million (ppm), while in the year 2022, it was measured to be 418.56 ppm.
 
 Since CO2 levels in the atmosphere have been steadily rising, let's investigate if this has anything to do with the increase in temperature.
