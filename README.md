@@ -176,7 +176,7 @@ Convert volcanic CO2 emissions (Kilotons) and atmospheric CO2 levels (Parts per 
 In summary, through merging datasets, training a Random Forest regression model, and evaluating its performance, we predicted missing CS ratios. This information was then used to estimate volcanic CO2 emissions. The chosen algorithm, Random Forest, yielded promising results with an RMSE of 1.33.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/volcanic_co2.png">
+  <img width="560" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/volcanic_co2.png">
 </p>
 
 It is evident from the plot that atmospheric CO2 levels are significantly higher than volcanic CO2 emissions. Atmospheric CO2 levels have been steadily increasing over the years, while volcanic CO2 emissions remain relatively stable. Hence Volcanic CO2 is not the major factor in rising atmospheric CO2 levels.
@@ -192,16 +192,16 @@ We choose a dataset with yearly total solar irradiance measured in W/m^2 from ye
 ## Correlation between Temperature and Total Solar Irridance
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/tsi_scatterplot.png">
+  <img width="560" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/tsi_scatterplot.png">
 </p>
 
 The scatter plot portrays temperature on the x-axis and Total Solar Irradiance (TSI) on the y-axis. A regression line is incorporated to display the direction of linear relationship. The plot displays a low positive correlation, as supported by a Pearson correlation coefficient of 0.345. This coefficient indicates a weak linear association, implying that with increasing TSI values, there is a minor increase in global temperature.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Temp_Solar_Plot.jpg">
+  <img width="660" height="450" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Temp_Solar_Plot.jpg">
 </p>
 
-Based on the analysis, sinec we observe a low positive correlation between the two, we can observe increased solar activity aligns with temperature rise. There are Instances of divergence i.e. the temperature fluctuations do not match the solar irradiance activity variations which suggest that solar activity isn't major factor in temperature changes. This can be observed in the year 1980, where we notice a separation between the temperature line and the solar irradiance line. This indicates that these two factors are not strongly linked or correlated with each other. The variations in the amount of solar energy (irradiance) reaching the Earth's surface have a limited and relatively small impact on causing changes in temperature over longer periods. Overall correlation doesn't fully explain recent temperature rise.
+Based on the analysis, since we observe a low positive correlation between the two, we can observe increased solar activity aligns with temperature rise. There are Instances of divergence i.e. the temperature fluctuations do not match the solar irradiance activity variations which suggest that solar activity isn't major factor in temperature changes. This can be observed in the year 1980, where we notice a separation between the temperature line and the solar irradiance line. This indicates that these two factors are not strongly linked or correlated with each other. The variations in the amount of solar energy (irradiance) reaching the Earth's surface have a limited and relatively small impact on causing changes in temperature over longer periods. Overall correlation doesn't fully explain recent temperature rise.
 
 We need further research to precisely quantify solar influence on long-term temperature trends.
 
@@ -211,15 +211,15 @@ After a comprehensive analysis of the data, it becomes apparent that volcanic er
 
 ## Future Work 
 
-- Attribution Studies: Study to figure out how much human activities contribute to the changes in temperature we see. Look into things like how much greenhouse gases we release, changes in how we use land, and other factors that might play a role.
+-  Study to figure out how much human activities contribute to the changes in temperature we see. Look into things like how much greenhouse gases we release, changes in how we use land, and other factors that might play a role.
 
-- Extreme Events Analysis: Look closely at really extreme weather events, like heatwaves and hurricanes, and see if they match up with changes in temperature over time. Check if these events are happening more often or getting stronger in recent years.
+- Look closely at really extreme weather events, like heatwaves and hurricanes, and see if they match up with changes in temperature over time. Check if these events are happening more often or getting stronger in recent years.
 
-- Economic and Social Implications: Take a broader look at what global warming means for our society and economy. Consider things like how it affects our ability to make money, where people live and move, and the health of the public.
+-  Take a broader look at what global warming means for our society and economy. Consider things like how it affects our ability to make money, where people live and move, and the health of the public.
 
-- Mitigation Strategies Assessment: Check how well different plans to reduce the problem, like cutting down on pollution or using more clean energy, actually work. See if these strategies can change the trends in temperature and levels of CO2 in the air.
+- Check how well different plans to reduce the problem, like cutting down on pollution or using more clean energy, actually work. See if these strategies can change the trends in temperature and levels of CO2 in the air.
 
-- Long-Term Predictions: Use past temperature and CO2 data to make educated guesses about what might happen in the future. Think about different situations, like if we keep polluting at the same rate or if we make big changes, and what the outcomes could be.
+- Use past temperature and CO2 data to make educated guesses about what might happen in the future. Think about different situations, like if we keep polluting at the same rate or if we make big changes, and what the outcomes could be.
 
 ## Data Sources
 
@@ -242,6 +242,12 @@ by Tobias P. Fischer, Santiago Arellano, Simon Carn, Alessandro Aiuppa, Bo Galle
 - [CO2 emissions](https://skepticalscience.com/print.php?r=45)
 
 
-Installation :
+## CDF Installation 
 
-https://cdf.gsfc.nasa.gov/html/sw_and_docs.html
+- pip install --upgrade spacepy
+- Download CDF C library from "https://cdf.gsfc.nasa.gov/html/sw_and_docs.html" (Check 32 or 64 bit)
+- Create a new folder in "C" drive as "CDF" and paste all the data in this folder (after unzipping the downloaded file)
+- Set environment variables (in system variables tab) -->
+	1. CDF_LIB --> C:\CDF\bin
+	2. CDF_HOME --> C:\CDF
+- Import library using "from spacepy import pycdf" command
